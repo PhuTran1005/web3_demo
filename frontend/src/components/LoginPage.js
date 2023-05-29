@@ -134,8 +134,8 @@ class LoginPage extends Component {
         return (
           <div className='login_container'>
             <div className='japanese-font'>
-              <p>こんにちは</p>
-              <p>{this.props.login.data.name}-さん</p>
+              <p>Hello </p>
+              <p>{this.props.login.data.name}-. Welcome to our proposal project "Ultilizing 2FA during Login Progress with Smart Contract"</p>
             </div>
           </div>
         );
